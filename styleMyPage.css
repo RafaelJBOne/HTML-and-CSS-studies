@@ -1,0 +1,31 @@
+body{
+    text-shadow: 2px 2px black;
+    background: url("/home/ubermensch/Imagens/wallpaperTIBW.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+}
+div{
+    height: auto%;
+    width: auto%;
+}
+img {  
+    max-width: 15%;  
+    height: auto;
+    border-radius: 110px;
+}
+input {
+    border-radius: 25px;
+    border-style: inset;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+input[type="submit"] {
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 25px;
+} 
