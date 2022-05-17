@@ -1,0 +1,45 @@
+<!DOCTYPE>
+
+<html lang='pt-br'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Comandos Linux</title>
+</head>
+
+
+<body>
+	<header><h1>Curso Linux</h1> 
+		<h2>Express 01</h2>
+	</header>
+		<h1>COMO CRIAR UM USUÁRIO</h1>
+	<h2>criando  usuario</h2>
+		$sudo adduser <nome_usuario> 
+	<h2>Adicionando em um grupo</h2>
+		$sudo usermod -a -G sudo <nome_usuario>'
+	<h2>logando no usuario</h2>
+		$su <nome_usuario> 
+	<h1>COMANDOS DIVERSOS</h1>
+	
+	<div>
+		<li>
+			<ul>$sudo adduser <nome_usuario> (cria um usuario)</ul>
+			<ul>$sudo usermod -a -G [nome grupo] [nome usuario] (adiciona usuario em determinado grupo)</ul>
+			<ul>$sudo su [nome usuario] //loga no perfil</ul> 
+			<ul>$sudo groupadd [opções] [nome do grupo]</ul>
+			<ul>$echo (mostra o conteudo da variável de ambiente)</ul>
+			<ul>$sudo who (mostra os logins de usuários)</ul>
+			<ul>$sudo who -H (mostra os logins de usuários em tabela)</ul>
+			<ul>$sudo who -q (mostra os usuários que estão logados e a quantidade)</ul>
+			<ul>$sudo whoami (mostra os usuários logados)</ul>
+			<ul>$ls /[diretorio] |grep [string] (filtra palafra chave no diretorio)</ul>
+			<ul>$ls useradd -e 1999-12-31 (e = expire date, --expiredate; sintaxe ano/mês/dia)</ul>
+			<ul>$pwd (mostra o diretorio atual)</ul>
+			<ul>$logout (desilga o sistema)</ul>
+			<ul>$halt (desliga o sistema)</ul>
+			<ul>$shutdown -h now (desliga o sistema imediatamente)</ul>
+			<ul>$shutdown -r 20 (programa o sistema para ser desligado em 20 minutos)</ul>
+			<ul>#uptime (mostra o tempo que o sistema está ligado)</ul>
+		</li>
+	</div>
+	
+</body>
