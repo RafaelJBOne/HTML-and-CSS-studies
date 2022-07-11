@@ -1,7 +1,7 @@
 # HTML-and-CSS-studies
 My notes about web development 
 
-    #In HTML docments was a standart structure called boidtemple.
+    #In HTML documents was a standart structure called boidtemple.
     That's has the basic tags how web site moust have. 
 
 Exemple Boidtemple in html:
